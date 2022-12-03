@@ -17,8 +17,6 @@
 
 #endif
 
-#import <SJVideoPlayer/SJVideoPlayerURLAsset+SJExtendedDefinition.h>
-
 @interface SJTestAliViewController3 ()
 @property (nonatomic, strong) SJVideoPlayer *player;
 @end

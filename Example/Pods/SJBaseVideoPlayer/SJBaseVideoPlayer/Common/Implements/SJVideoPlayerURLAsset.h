@@ -26,6 +26,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 试用结束的位置, 单位秒
 @property (nonatomic) NSTimeInterval trialEndPosition;
 
+/// e.g. 高清 720P
+@property (nonatomic, copy, nullable) NSString *definition_fullName;
+
+/// e.g. 720P
+@property (nonatomic, copy, nullable) NSString *definition_lastName;
+
 @property (nonatomic, strong, null_resettable) SJPlayModel *playModel;
 - (id<SJVideoPlayerURLAssetObserver>)getObserver;
 
